@@ -2,7 +2,7 @@
   "name": "gnana-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gnanasai5111.github.io/blog-ui",
+  "homepage": "https://gnanasai5111.github.io/blog-ui/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
