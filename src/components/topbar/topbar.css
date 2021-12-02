@@ -36,6 +36,28 @@
     padding: 0;
     list-style: none;
   }
+  @media (max-width:576px) {
+     .topLeft {
+      display: none;
+    }
+
+    
+  }
+  @media (max-width:326px) {
+    .top {
+     flex-direction: column;
+     height: 52px;
+   }
+  .topList{
+     margin-top: 10px;
+   }
+   .topRight{
+   position: absolute;
+   right: 10px;
+   top: 30px;
+   }
+   
+ }
   
   .topListItem {
     margin-right: 20px;

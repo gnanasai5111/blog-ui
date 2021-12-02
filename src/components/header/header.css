@@ -28,3 +28,13 @@
     margin-top: 80px;
     object-fit: cover;
   }
+  @media (max-width:576px) {
+    .headerTitleLg {
+      font-size: 60px;
+      /* top: 23%; */
+    }
+    .header{
+      margin-top: 20px;
+    }
+    
+  }

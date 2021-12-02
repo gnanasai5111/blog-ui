@@ -3,22 +3,27 @@
   }
   
   .writeImg {
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    display: block;
+    margin:auto;
     width: 70vw;
     height: 250px;
     border-radius: 10px;
     object-fit: cover;
   }
+
   
   .writeForm {
     position: relative;
   }
   
   .writeFormGroup {
-    margin-left: 150px;
+   width: 70vw;
+    margin:auto;
     display: flex;
     align-items: center;
   }
+
   
   .writeIcon {
     width: 25px;
@@ -70,3 +75,15 @@
     display: flex;
     align-items: center;
   }
+
+
+  @media (max-width:576px) {
+    .writeSubmit{
+      right: 5px;
+    }
+    .writeImg, .writeText,.writeInput ,.writeFormGroup{
+      width: 90vw;
+      padding:10px 0;
+    }
+  }
+ 
